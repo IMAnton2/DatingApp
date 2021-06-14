@@ -43,7 +43,7 @@ namespace API.Data.Migrations
                 name: "Interests",
                 table: "Users",
                 type: "INTEGER",
-                nullable: false,
+                nullable: true,
                 defaultValue: 0);
 
             migrationBuilder.AddColumn<string>(
